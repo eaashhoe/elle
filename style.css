@@ -1,0 +1,185 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family:'Spartan', sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 50px;
+}
+
+h3{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 24px;
+}
+
+a, h4{
+    font-family: 'Spartan', sans-serif;
+    line-height: 2rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 100;
+}
+h5{
+    color: #818181;
+    font-weight: 100;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+}
+
+/*ventrestillet tekst*/
+
+.lefttext{
+    text-align: left;
+}
+
+/*rød linje*/
+.redline{
+    border: 1px solid rgba(166, 4, 5);
+    width: 30px;
+    margin: auto;
+   
+}
+
+/*NAVIGATIONSBAR*/
+nav{
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 160px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #A60405;
+    overflow:hidden;
+    position:sticky;
+    top: 0%;
+    z-index:1;
+    background-color: white;
+
+}
+
+#abonner{
+    background-color: #202020;
+    color: white;
+    font-size: 10px;
+    padding: 1px 25px;
+    border: 2px solid #202020;
+    font-weight: 600;
+}
+
+#abonner:hover{
+    border-bottom: 2px solid rgba(166, 4, 5);
+}
+
+ nav img {
+    max-width: 10%;
+    padding-right: 75px;
+}
+
+#arrowdown{
+    padding-left: 20px;
+    max-width: 3%;
+}
+
+.nyestehistorier{
+    background-color: #ebe9df;
+    padding: 2%;
+    margin-top: 50px;
+}
+
+
+/*4 kasser på forsiden*/
+
+.fourboxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ebe9df;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+.fourboxes > div {
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    background-color: white;
+   
+}
+.fourboxes > div > h4{
+    font-size:12px;
+    }
+
+.fourboxes > div > h2{
+    font-size:30px;
+    }
+
+.fourboxes > div > img{
+    width:300px;
+    }
+
+
+/*artikel side*/
+
+.articlemaincontent{
+   width: 80%;
+   margin-top: 75px;
+   margin-left: 250px;
+   margin-right: 250px;
+}
+
+.articlemaincontent > article > img{
+    width: 80%;
+}
+
+.articlemaincontent > article {
+    display: flex;
+    flex-direction: column;
+}
+
+.articlemaincontent > article > section {
+    position: relative; 
+    bottom: 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 275px;
+    padding-top: 50px;
+}
+
+.articlemaincontent > article > section > h2 {
+    padding: 2%;
+}
+.articlemaincontent > article > section > h3 {
+    padding: 2%;
+}
+.articlemaincontent > article > section > h4 {
+    padding: 2%;
+}
+.articlemaincontent > article > section > h5 {
+    padding: 2%;
+}
+.articlemaincontent > article > section > p {
+    padding: 2%;
+}
+
+#cocktailvideo{
+    border: 0;
+    margin-top: 20px;
+    width: 560px;
+    height: 315px;
+}
+
